@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 將列數改為10 */
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  
+  .grid-item {
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .prime {
+    background-color: #0d9d12;
+  }
+  
+  .non-prime {
+    background-color: rgb(200, 76, 76);
+  }
+  
+  
